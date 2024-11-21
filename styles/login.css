@@ -1,0 +1,137 @@
+/* This is the Login Stylesheet */
+
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+}
+
+header {
+  position: fixed;
+  background-color: blue;
+  color: white;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+form {
+  padding: 15px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+fieldset {
+  border: 1px solid rgb(175, 170, 170);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  color: blue;
+  background: white;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: -10px;
+  margin-top: -35px;
+  width: max-content;
+  z-index: 100;
+  padding: 0px 2px;
+}
+
+label {
+  color: blue;
+  font-weight: medium;
+}
+
+input[type="email"],
+input[type="password"] {
+  caret-color: blue;
+  outline: none;
+  cursor: point;
+  border: 1px solid rgb(230, 232, 233);
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: 0px;
+  margin-left: 0px;
+}
+
+input[type="submit"] {
+  margin-left: 38%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: medium;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+}
+input[type="submit"]:hover {
+  background-color: navy;
+  color: grey;
+}
+
+::placeholder {
+  color: rgb(209, 204, 204);
+  font-weight: light;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+p {
+}
+.redirection {
+  text-align: center;
+  margin-top: 15px;
+  font-size: normal;
+}
+.forgot-pass-link {
+  margin-left: 28%;
+  font-size: normal;
+  color: blue;
+  margin-top: -10px;
+}
+
+footer {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blue;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: small;
+  font-weight: normal;
+  padding: 7.5px 15px;
+  text-transform: capitalize;
+}

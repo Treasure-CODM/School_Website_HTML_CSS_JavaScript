@@ -1,0 +1,67 @@
+<!-- 
+When trying to access a site with Authentication
+*Make your Login.html to load first
+-->
+<!-- This is the  webpage -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Account</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/login.css" />
+  </head>
+  <body>
+    <header class="w-sm-25">FTDP National Open University - Manchester, England.</header>
+
+    <form action="" id="login-form-data" class="w-sm-25 py-5">
+      <fieldset>
+        <legend>Enter details to login</legend>
+
+        <label for="emailInput">E-mail</label>
+        <br />
+        <input
+          type="email"
+          placeholder="Yourdomain@example.com"
+          id="emailInput"
+        />
+        <br />
+        <br />
+
+        <label for="passwordInput">Password</label>
+        <br />
+        <input
+          type="password"
+          placeholder="Enter your password here"
+          id="passwordInput"
+        />
+        <br />
+        <br />
+
+        <input type="submit" />
+
+        <p class="redirection">
+          Dont have an account? <a href="./register.html">Sign up here</a>
+        </p>
+        <p class="forgot-pass-link">
+          <a href="./forgotpassword.html">Forgot Password?</a>
+        </p>
+      </fieldset>
+    </form>
+
+    <footer class="w-sm-50">
+        FTDP Rights and Reserved copyright&copy; @2024 Bizmarrow Team of
+        Developers
+    </footer>
+
+
+    <script src="scripts/js/bootstrap.bundle.js"></script>
+    <script type="module" src="scripts/login.js"></script>
+  </body>
+</html>
+
+<!-- 
+fieldset: gives us the space for our forms.
+Legend allows us to write text in between the lines
+-->
